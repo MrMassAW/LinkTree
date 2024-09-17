@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massa Blockchain Links</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+        /* General page styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fde2e4; /* Light pink background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: #fde2e4;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #ffe5e9; /* Light pink container */
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #c44536; /* Dark red header */
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            color: #8c2f39; /* Medium red */
+            font-weight: 600;
+            margin: 30px 0 10px 0;
+            border-bottom: 2px solid #8c2f39; /* Medium red border */
+            padding-bottom: 5px;
+        }
+
+        /* Card style for each link */
+        .link-card {
+            display: flex;
+            align-items: center;
+            background-color: #f9d5d9; /* Light red for cards */
+            margin: 10px 0;
+            padding: 15px 20px;
+            border-radius: 10px;
+            transition: box-shadow 0.3s ease;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .link-card:hover {
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .link-card img {
+            width: 40px;
+            margin-right: 15px;
+        }
+
+        .link-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .link-info .link-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #c44536; /* Dark red for link titles */
+        }
+
+        .link-info .description {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        /* Footer */
+        .footer {
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: 40px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Massa Blockchain Links</h1>
+
+        <!-- Dynamically load content -->
+        <div id="link-container"></div>
+
+        <div class="footer">© 2024 Massa Blockchain. All Rights Reserved.</div>
+    </div>
+
+    <script>
+        // Function to load and display links from the JSON file
+        fetch('massa_links.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('link-container');
+                
+                // Loop through each category in the JSON file
+                for (let category in data) {
+                    // Create category title
+                    const categoryTitle = document.createElement('div');
+                    categoryTitle.className = 'category-title';
+                    categoryTitle.textContent = category;
+                    container.appendChild(categoryTitle);
+                    
+                    // Loop through each link in the category
+                    data[category].forEach(link => {
+                        const linkCard = document.createElement('a');
+                        linkCard.className = 'link-card';
+                        linkCard.href = link.url;
+                        linkCard.target = "_blank";
+                        
+                        // Add icon and link info
+                        linkCard.innerHTML = `
+                            <img src="${link.icon}" alt="${link.name} Icon">
+                            <div class="link-info">
+                                <span class="link-title">${link.name}</span>
+                                <span class="description">${link.description}</span>
+                            </div>
+                        `;
+                        
+                        container.appendChild(linkCard);
+                    });
+                }
+            })
+            .catch(error => console.error('Error loading the links:', error));
+    </script>
+
+</body>
+</html>
