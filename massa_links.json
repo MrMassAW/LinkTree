@@ -19,7 +19,7 @@
           "name": "Massa Community Forum",
           "url": "https://forum.massa.community/",
           "description": "Join the community to discuss topics, ask questions, and connect with other Massa users.",
-          "icon": "https://forum.massa.community/uploads/default/original/1X/_129430568242d1b7f853bb13ebea28b3f6af4e7.png"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa Documentation",
@@ -127,13 +127,13 @@
     },
 
     "Tokens": {
-      "icon": "icons/massa.svg",
+      "icon": "icons/Massa.svg",
       "items": [
         {
           "name": "$MAS",
           "url": "https://app.dusa.io/trade",
           "description": "Trade $MAS on Dusa.",
-          "icon": "icons/massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "$PUR",
@@ -186,7 +186,7 @@
           "name": "Trade $MAS on MEXC",
           "url": "https://www.mexc.com/exchange/MAS_USDT",
           "description": "Trade Massa on MEXC and track market activity.",
-          "icon": "icons/mexc.ico"
+          "icon": "icons/Mexc.ico"
         }
       ]
     },
@@ -238,7 +238,7 @@
     },
 
     "Partners": {
-      "icon": "https://hyperlane.xyz/favicon.ico",
+      "icon": "icons/Massa.svg",
       "items": [
         {
           "name": "Hyperlane",
@@ -256,7 +256,7 @@
           "name": "KYVE Network",
           "url": "https://www.kyve.network/",
           "description": "KYVE is a decentralized data lake for archiving and validating blockchain data, ensuring data availability across ecosystems.",
-          "icon": "icons/kyve.jpg"
+          "icon": "icons/Kyve.jpg"
         }
       ]
     },
@@ -311,7 +311,7 @@
           "name": "Counterfeit Reality",
           "url": "https://cr.massa.net/#/",
           "description": "MW0rld is a Telegram bot that facilitates interactions within the Massa blockchain ecosystem.",
-          "icon": "icons/game_CR.png"
+          "icon": "icons/Game_CR.png"
         }
       ]
     } 
