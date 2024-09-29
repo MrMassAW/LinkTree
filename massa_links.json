@@ -191,7 +191,7 @@
       ]
     },
     "DEXs": {
-      "icon": "icons/dex.png",
+      "icon": "icons/Dex.png",
       "items": [
         {
           "name": "Dusa.io",
@@ -203,7 +203,7 @@
     },
 
     "Bridges": {
-      "icon": "icons/Bridge.png",
+      "icon": "icons/bridge.png",
       "items": [
         {
           "name": "Dusa Bridge",
@@ -261,7 +261,7 @@
       ]
     },
     "NFTs": {
-      "icon": "icons/nft.png",
+      "icon": "icons/NFT.png",
       "items": [
         {
           "name": "Charlie",
@@ -298,7 +298,7 @@
 
     
     "Games": {
-      "icon": "https://forum.massa.community/uploads/default/original/1X/_129430568242d1b7f853bb13ebea28b3f6af4e7.png",
+      "icon": "icons/Massa.svg",
       "items": [
 
         {
