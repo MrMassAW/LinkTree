@@ -7,6 +7,8 @@
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
+    let mouse = { x: null, y: null };
+
     class MilkyWayStar {
         constructor() {
             this.reset();
@@ -21,10 +23,10 @@
             this.y = Math.random() * milkyWayHeight;
 
             // Set random speed and direction for slow movement
-            this.speed = Math.random() * 0.1 + 0.1; // Slow speed for smoother movement
+            this.baseSpeed = Math.random() * 0.1 + 0.1; // Slow base speed for smoother movement
             const angle = Math.random() * Math.PI * 2;
-            this.dx = Math.cos(angle) * this.speed;
-            this.dy = Math.sin(angle) * this.speed;
+            this.dx = Math.cos(angle) * this.baseSpeed;
+            this.dy = Math.sin(angle) * this.baseSpeed;
 
             // Randomize star size
             this.size = Math.random() * 1.5 + 0.5;
@@ -44,6 +46,22 @@
         }
 
         update() {
+            // Calculate distance to the mouse
+            const distX = this.x - mouse.x;
+            const distY = this.y - mouse.y;
+            const distance = Math.sqrt(distX * distX + distY * distY);
+
+            // If mouse is close, make the star flee
+            if (distance < 100) {
+                const fleeSpeed = 2;
+                this.dx = (distX / distance) * fleeSpeed;
+                this.dy = (distY / distance) * fleeSpeed;
+            } else {
+                // Gradually reduce speed back to base speed
+                this.dx += ((Math.cos(Math.atan2(this.dy, this.dx)) * this.baseSpeed) - this.dx) * 0.05;
+                this.dy += ((Math.sin(Math.atan2(this.dy, this.dx)) * this.baseSpeed) - this.dy) * 0.05;
+            }
+
             // Move the star
             this.x += this.dx;
             this.y += this.dy;
@@ -51,8 +69,6 @@
             // Keep stars within the canvas bounds by bouncing off the edges
             if (this.x <= 0 || this.x >= canvas.width) this.dx *= -1;
             if (this.y <= 0 || this.y >= canvas.height) this.dy *= -1;
-
-            // Update the color or opacity here if needed
         }
     }
 
@@ -68,8 +84,8 @@
             const distance = Math.hypot(dx, dy);
 
             // Only draw links if stars are within 150 pixels of each other
-            if (distance < 150) {
-                const brightness = Math.max(0, 1 - distance / 150);
+            if (distance < 255) {
+                const brightness = Math.max(0, 1 - distance / 255);
                 const redValue = Math.floor(255 * Math.pow(brightness, 2)); // Exponential increase for brighter red when closer
 
                 ctx.save();
@@ -84,18 +100,19 @@
         }
     }
 
-    // Initialize Milky Way stars and links
     function initMilkyWayStars() {
-        window.milkyWayStarsArray = [];
-        window.milkyWayLinksArray = [];
-
-        const numMilkyWayStars = 500;
-
+        milkyWayStarsArray = [];
+        milkyWayLinksArray = [];
+    
+        // Adjust the number of stars based on canvas size
+        const density = 0.0003; // You can adjust this value to change the density
+        const numMilkyWayStars = Math.floor(canvas.width * canvas.height * density);
+    
         // Create stars
         for (let i = 0; i < numMilkyWayStars; i++) {
             milkyWayStarsArray.push(new MilkyWayStar());
         }
-
+    
         // Create links
         for (let i = 0; i < milkyWayStarsArray.length; i++) {
             for (let j = i + 1; j < milkyWayStarsArray.length; j++) {
@@ -133,6 +150,12 @@
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
             initMilkyWayStars(); // Reinitialize stars and links on resize
+        });
+
+        // Mouse move event listener to update mouse position
+        window.addEventListener('mousemove', (event) => {
+            mouse.x = event.clientX;
+            mouse.y = event.clientY;
         });
     });
 })();
