@@ -1,19 +1,19 @@
 {
   "categories": {
     "Massa ressources": {
-      "icon": "/icons/Massa.svg",
+      "icon": "icons/Massa.svg",
       "items": [
         {
           "name": "Massa Official Website",
           "url": "https://massa.net/",
           "description": "The official website of the Massa blockchain, featuring information about its decentralized infrastructure and innovative Blockclique technology.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa Ecosystem",
           "url": "https://massa.foundation/ecosystem",
           "description": "Explore the diverse projects and apply for grants to build on the Massa blockchain.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa Community Forum",
@@ -25,37 +25,37 @@
           "name": "Massa Documentation",
           "url": "https://docs.massa.net/",
           "description": "Comprehensive documentation for the Massa blockchain, covering development guides, smart contracts, and network specifications.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa Tokenomics",
           "url": "https://docs.massa.net/docs/learn/tokenomics",
           "description": "Learn about the economic model of the Massa blockchain, including the distribution, staking rewards, and incentives.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa DeWeb",
           "url": "https://docs.massa.net/docs/deweb/home",
           "description": "Explore how the Massa blockchain enables a decentralized web through its innovative architecture and Web3 applications.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa ASC",
           "url": "https://docs.massa.net/docs/learn/asc/massa-asc",
           "description": "Detailed guide on Massa's Automated Smart Contracts (ASC) system, designed to enable decentralized and self-executing contracts.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa Node Installation",
           "url": "https://docs.massa.net/docs/node/install",
           "description": "Step-by-step guide on how to install and run a Massa blockchain node, contributing to network security and decentralization.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa Blockclique Research Paper",
           "url": "https://arxiv.org/pdf/1803.09029",
           "description": "Massa research paper on Blockclique: Scaling Blockchains through Transaction Sharding in a Multithreaded Block Graph, detailing their innovative approach to blockchain scalability.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         }
       ]
     },
@@ -85,19 +85,19 @@
           "name": "Massa Storage Calculator",
           "url": "https://mrmassaw.github.io/massa-storage-calculator/",
           "description": "Calculate storage costs on the Massa network for your decentralized applications.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa SC Scanner",
           "url": "https://massa-sc-scanner.netlify.app/",
           "description": "A tool to scan and explore smart contracts deployed on the Massa blockchain.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "Massa Dart SDK",
           "url": "https://pub.dev/packages/massa",
           "description": "Massa Dart SDK is a package for developers to interact with the Massa blockchain using the Dart programming language.",
-          "icon": "/icons/Massa.svg"
+          "icon": "icons/Massa.svg"
         },
         {
           "name": "MassAdoption",
@@ -186,12 +186,12 @@
           "name": "Trade $MAS on MEXC",
           "url": "https://www.mexc.com/exchange/MAS_USDT",
           "description": "Trade Massa on MEXC and track market activity.",
-          "icon": "/icons/mexc.ico"
+          "icon": "icons/mexc.ico"
         }
       ]
     },
     "DEXs": {
-      "icon": "/icons/dex.png",
+      "icon": "icons/dex.png",
       "items": [
         {
           "name": "Dusa.io",
@@ -203,7 +203,7 @@
     },
 
     "Bridges": {
-      "icon": "/icons/Bridge.png",
+      "icon": "icons/Bridge.png",
       "items": [
         {
           "name": "Dusa Bridge",
@@ -215,7 +215,7 @@
           "name": "CEDE.store CEX On-Ramp",
           "url": "https://app.dusa.io/cexOnRamp",
           "description": "Transfer your CEX assets to your blockchain address from any dApp.",
-          "icon": "/icons/cede.png"
+          "icon": "icons/cede.png"
         }
       ]
     },
@@ -244,54 +244,54 @@
           "name": "Hyperlane",
           "url": "https://hyperlane.xyz/",
           "description": "Hyperlane offers interoperability solutions for decentralized applications, connecting blockchains for seamless data transfer.",
-          "icon": "/icons/Hyperlane.jpg"
+          "icon": "icons/Hyperlane.jpg"
         },
         {
           "name": "Umbrella Network"  ,
           "url": "https://umb.network/",
           "description": "Umbrella Network provides decentralized, scalable, and secure oracle services for blockchain ecosystems.",
-          "icon": "/icons/umbrella.png"
+          "icon": "icons/umbrella.png"
         },
         {
           "name": "KYVE Network",
           "url": "https://www.kyve.network/",
           "description": "KYVE is a decentralized data lake for archiving and validating blockchain data, ensuring data availability across ecosystems.",
-          "icon": "/icons/kyve.jpg"
+          "icon": "icons/kyve.jpg"
         }
       ]
     },
     "NFTs": {
-      "icon": "/icons/nft.png",
+      "icon": "icons/nft.png",
       "items": [
         {
           "name": "Charlie",
           "url": "https://www.purrfectuniverse.com/mint/charlie",
           "description": "Charlie is the cuttest cat on the Massa universe.",
-          "icon": "/icons/NFTcharlie.jpg"
+          "icon": "icons/NFTcharlie.jpg"
         },
         {
           "name": "Awesome LAMAssa",
           "url": "https://www.purrfectuniverse.com/mint/lamassa",
           "description": "Awesome LAMAssa is an adorable NFT collection featuring quirky llamas, each with its own charming personality.",
-          "icon": "/icons/NFTlamassa.png"
+          "icon": "icons/NFTlamassa.png"
         },
         {
           "name": "Massamon",
           "url": "https://massamon.com/",
           "description": "Evolving NFT!!!: MassaMon grows with you, capturing every milestone in a unique digital journey.",
-          "icon": "/icons/NFT_Massamon.ico"
+          "icon": "icons/NFT_Massamon.ico"
         },
         {
           "name": "Cameleonz",
           "url": "https://www.cameleon.art/",
           "description": "Discover Cameleonz EVOLVING NFT!!!!: the world's first evolving NFT that adapts to your creativity, transforming with each new idea.",
-          "icon": "/icons/cam.png"
+          "icon": "icons/cam.png"
         },
         {
           "name": "Fisherman John's postcard",
           "url": "https://www.purrfectuniverse.com/mint/fisherman-john's-postcard",
           "description": "Fisherman John's Postcard is a cute NFT collection capturing charming seaside adventures with delightful, hand-drawn details.",
-          "icon": "/icons/NFTjohn.png"
+          "icon": "icons/NFTjohn.png"
         }
       ]
     },
@@ -305,13 +305,13 @@
           "name": "MW0rld Bot",
           "url": "https://t.me/MW0rld_bot",
           "description": "MW0rld is a Telegram bot that facilitates interactions within the Massa blockchain ecosystem.",
-          "icon": "/icons/GAME_MW0rld.jpg"
+          "icon": "icons/GAME_MW0rld.jpg"
         },
         {
           "name": "Counterfeit Reality",
           "url": "https://cr.massa.net/#/",
           "description": "MW0rld is a Telegram bot that facilitates interactions within the Massa blockchain ecosystem.",
-          "icon": "/icons/game_CR.png"
+          "icon": "icons/game_CR.png"
         }
       ]
     } 
