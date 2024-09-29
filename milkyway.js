@@ -124,19 +124,19 @@
     // Animation loop
     function animate() {
         requestAnimationFrame(animate);
-
+    
         // Clear the canvas
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-        // Update and draw stars
+    
+        // Draw links between stars first
+        milkyWayLinksArray.forEach(link => {
+            link.draw();
+        });
+    
+        // Update and draw stars on top of the links
         milkyWayStarsArray.forEach(star => {
             star.update();
             star.draw();
-        });
-
-        // Draw links between stars
-        milkyWayLinksArray.forEach(link => {
-            link.draw();
         });
     }
 
