@@ -7,13 +7,13 @@
           "name": "Massa Official Website",
           "url": "https://massa.net/",
           "description": "The official website of the Massa blockchain, featuring information about its decentralized infrastructure and innovative Blockclique technology.",
-          "icon": "icons/Massa.svg"
+          "icon": "/icons/Massa.svg"
         },
         {
           "name": "Massa Ecosystem",
           "url": "https://massa.foundation/ecosystem",
           "description": "Explore the diverse projects and apply for grants to build on the Massa blockchain.",
-          "icon": "icons/Massa.svg"
+          "icon": "/icons/Massa.svg"
         },
         {
           "name": "Massa Community Forum",
