@@ -174,7 +174,7 @@
     },
 
     "CEXs": {
-      "icon": "/icons/cex.png",
+      "icon": "icons/cex.png",
       "items": [
         {
           "name": "Trade $MAS on Bitget",
