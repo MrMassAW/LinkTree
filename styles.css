@@ -1,0 +1,164 @@
+/* Reset and Base Styles */
+body {
+    margin: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrolling */
+    font-family: 'Inter', sans-serif;
+    background: #000; /* Set background to black */
+    position: relative;
+}
+
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure canvas is below other elements */
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin for compactness */
+    z-index: 3; /* Ensure header is above the canvas */
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    padding: 5px; /* Reduced padding */
+}
+
+.header h1 {
+    font-size: 1.8em; /* Reduced font size */
+    color: #fff; /* White for contrast with the black background */
+}
+
+.header p {
+    font-size: 1em; /* Reduced font size */
+    color: #fff; /* Set to white for better visibility */
+}
+
+#search-bar {
+    padding: 5px; /* Reduced padding */
+    margin-top: 5px; /* Reduced margin */
+    width: 70%; /* Reduced width for more space efficiency */
+    max-width: 300px; /* Reduced max-width */
+    border-radius: 15px; /* Reduced border radius */
+    border: 1px solid #ddd; /* Reduced border size */
+    outline: none;
+    font-size: 0.9em; /* Reduced font size */
+}
+
+/* Categories Container for Brick Wall Layout */
+#categories-container {
+    position: relative;
+    top: 0;
+    z-index: 2;
+    display: flex; /* Use flexbox to wrap categories */
+    flex-wrap: wrap; /* Allow categories to wrap and fit in available space */
+    gap: 10px; /* Small gap for compact spacing */
+    padding: 10px; /* Reduced padding */
+    background: rgba(0, 0, 0, 0); /* Background for the container */
+    max-width: 100vw; /* Fit to the viewport width */
+    box-sizing: border-box;
+    border-color: aqua;
+}
+
+/* Category Brick Styles */
+.category-column {
+    background: rgba(255, 255, 255, 0); /* 60% transparent */
+    border-radius: 10px; /* Reduced border radius */
+    padding: 10px; /* Reduced padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow for a lighter appearance */
+    box-sizing: border-box;
+    flex: 1 1 250px; /* Set minimum width and allow categories to grow if space allows */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Collapsible Header Styles */
+.category-header {
+    font-size: 1.1em; /* Reduced font size */
+    margin-bottom: 5px; /* Reduced margin */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Reduced gap */
+    cursor: pointer; /* To indicate it can collapse */
+    color: #fff; /* Set to white */
+}
+
+.category-header .icon img {
+    width: 30px; /* Fixed size for icons */
+    height: 30px; /* Fixed size for icons */
+    flex-shrink: 0;
+}
+
+/* Items Container and Item Cards */
+.items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap for compact spacing */
+}
+
+.item-card {
+    background: rgba(249, 249, 249, 0.144); /* Make items also slightly transparent */
+    border-radius: 5px; /* Reduced border radius */
+    padding: 10px; /* Set consistent padding */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+    cursor: pointer;
+    gap: 3px; /* Reduced gap */
+    transition: transform 0.2s;
+    position: relative; /* Position relative to show tooltip */
+    display: flex; /* Ensure items have the correct display setting */
+    align-items: center; /* Align icon and title properly */
+}
+
+.item-card.hidden {
+    display: none !important; /* Use a class to control visibility */
+}
+
+/* Tooltip for Description */
+.item-card::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.85); /* Darker background for better contrast */
+    color: #fff; /* White text for visibility */
+    padding: 8px 12px; /* More padding for a comfortable look */
+    border-radius: 8px; /* More rounded for a modern look */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for extra definition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a floating effect */
+    white-space: normal; /* Allow text to wrap */
+    min-width: 200px;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s; /* Smooth transition for both opacity and movement */
+    pointer-events: none;
+    z-index: 10; /* Ensure tooltip appears above other elements */
+    text-align: center; /* Center align text */
+}
+
+.item-card:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px); /* Small movement upwards for a "pop" effect */
+}
+
+/* Item Header (Icon and Title on the Same Line) */
+.item-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and title */
+    color: #fff; /* Set to white for better visibility */
+}
+
+.item-icon {
+    width: 30px; /* Fixed size for icons */
+    height: 30px; /* Fixed size for icons */
+    flex-shrink: 0;
+}
+
+.item-title {
+    font-size: 1em; /* Reduced font size for compactness */
+    font-weight: bold;
+    color: #fff; /* Set to white for better visibility */
+}

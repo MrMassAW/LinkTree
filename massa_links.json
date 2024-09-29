@@ -1,0 +1,319 @@
+{
+  "categories": {
+    "Massa ressources": {
+      "icon": "icons/Massa.svg",
+      "items": [
+        {
+          "name": "Massa Official Website",
+          "url": "https://massa.net/",
+          "description": "The official website of the Massa blockchain, featuring information about its decentralized infrastructure and innovative Blockclique technology.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa Ecosystem",
+          "url": "https://massa.foundation/ecosystem",
+          "description": "Explore the diverse projects and apply for grants to build on the Massa blockchain.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa Community Forum",
+          "url": "https://forum.massa.community/",
+          "description": "Join the community to discuss topics, ask questions, and connect with other Massa users.",
+          "icon": "https://forum.massa.community/uploads/default/original/1X/_129430568242d1b7f853bb13ebea28b3f6af4e7.png"
+        },
+        {
+          "name": "Massa Documentation",
+          "url": "https://docs.massa.net/",
+          "description": "Comprehensive documentation for the Massa blockchain, covering development guides, smart contracts, and network specifications.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa Tokenomics",
+          "url": "https://docs.massa.net/docs/learn/tokenomics",
+          "description": "Learn about the economic model of the Massa blockchain, including the distribution, staking rewards, and incentives.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa DeWeb",
+          "url": "https://docs.massa.net/docs/deweb/home",
+          "description": "Explore how the Massa blockchain enables a decentralized web through its innovative architecture and Web3 applications.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa ASC",
+          "url": "https://docs.massa.net/docs/learn/asc/massa-asc",
+          "description": "Detailed guide on Massa's Automated Smart Contracts (ASC) system, designed to enable decentralized and self-executing contracts.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa Node Installation",
+          "url": "https://docs.massa.net/docs/node/install",
+          "description": "Step-by-step guide on how to install and run a Massa blockchain node, contributing to network security and decentralization.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa Blockclique Research Paper",
+          "url": "https://arxiv.org/pdf/1803.09029",
+          "description": "Massa research paper on Blockclique: Scaling Blockchains through Transaction Sharding in a Multithreaded Block Graph, detailing their innovative approach to blockchain scalability.",
+          "icon": "icons/Massa.svg"
+        }
+      ]
+    },
+    "Massa Tools": {
+      "icon": "https://massa-bc-info.vercel.app/favicon.ico",
+      "items": [
+        {
+          "name": "Massa Explorer",
+          "url": "https://explorer.massa.net/mainnet/address/AU12FbbZwNHo5mFnhMFFSr8mU7JayBdgcrCoWk8tck8RxJT86J4km",
+          "description": "Explore the Massa blockchain by viewing transactions, blocks, and address data.",
+          "icon": "https://explorer.massa.net/favicon.png"
+        },
+        {
+          "name": "Massa Blockchain Info",
+          "url": "https://massa-bc-info.vercel.app/",
+          "description": "Detailed information on the Massa blockchain, including real-time stats and analytics.",
+          "icon": "https://massa-bc-info.vercel.app/favicon.ico"
+        },
+
+        {
+          "name": "MassaExplor.io",
+          "url": "https://www.massexplo.io/",
+          "description": "A blockchain explorer for Massa, offering detailed insights into blocks, transactions, smart contracts, and addresses.",
+          "icon": "https://www.massexplo.io/favicon.ico"
+        },
+        {
+          "name": "Massa Storage Calculator",
+          "url": "https://mrmassaw.github.io/massa-storage-calculator/",
+          "description": "Calculate storage costs on the Massa network for your decentralized applications.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa SC Scanner",
+          "url": "https://massa-sc-scanner.netlify.app/",
+          "description": "A tool to scan and explore smart contracts deployed on the Massa blockchain.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "Massa Dart SDK",
+          "url": "https://pub.dev/packages/massa",
+          "description": "Massa Dart SDK is a package for developers to interact with the Massa blockchain using the Dart programming language.",
+          "icon": "icons/Massa.svg"
+        },
+        {
+          "name": "MassAdoption",
+          "url": "https://massadoption.tech/",
+          "description": "A resource hub for adopting Massa technologies and expanding knowledge.",
+          "icon": "https://massadoption.tech/favicon.ico"
+        }
+      ]
+    },
+
+    "Wallets": {
+      "icon": "icons/wallet.png",
+      "items": [
+        {
+          "name": "MassaWallet",
+          "url": "https://station.massa/plugin/massa-labs/massa-wallet/web-app/account-select",
+          "description": "Access and manage your Massa wallet, track balances, and send tokens.",
+          "icon": "icons/MassaStation.svg"
+        },
+        {
+          "name": "Bearby",
+          "url": "https://bearby.io/",
+          "description": "Bearby is a browser extension wallet for the Massa blockchain, providing users with a secure and easy way to interact with decentralized applications.",
+          "icon": "icons/bearby.svg"
+        }
+      ]
+    },
+
+    "Tokens": {
+      "icon": "icons/massa.svg",
+      "items": [
+        {
+          "name": "$MAS",
+          "url": "https://app.dusa.io/trade",
+          "description": "Trade $MAS on Dusa.",
+          "icon": "icons/massa.svg"
+        },
+        {
+          "name": "$PUR",
+          "url": "https://app.dusa.io/trade",
+          "description": "Trade $PUR on Dusa.",
+          "icon": "icons/charlie.webp"
+        },
+        {
+          "name": "$POM",
+          "url": "https://app.dusa.io/trade",
+          "description": "Trade $POM on Dusa.",
+          "icon": "icons/pepe.jpg"
+        }
+      ]
+    },
+    "Stable Coins": {
+      "icon": "icons/stable.jpg",
+      "items": [
+        {
+          "name": "$USDC",
+          "url": "https://app.dusa.io/trade",
+          "description": "Trade USDS on Dusa.",
+          "icon": "icons/usdc.png"
+        },
+        {
+          "name": "$USDT",
+          "url": "https://app.dusa.io/trade",
+          "description": "Trade USDS on Dusa.",
+          "icon": "icons/usdt.png"
+        },
+        {
+          "name": "$DAI",
+          "url": "https://app.dusa.io/trade",
+          "description": "Trade USDS on Dusa.",
+          "icon": "icons/dai.jpg"
+        }
+      ]
+    },
+
+    "CEXs": {
+      "icon": "icons/cex.png",
+      "items": [
+        {
+          "name": "Trade $MAS on Bitget",
+          "url": "https://www.bitget.com/price/massa",
+          "description": "Track Massa's price and market performance on Bitget.",
+          "icon": "https://www.bitget.com/favicon.ico"
+        },
+        {
+          "name": "Trade $MAS on MEXC",
+          "url": "https://www.mexc.com/exchange/MAS_USDT",
+          "description": "Trade Massa on MEXC and track market activity.",
+          "icon": "icons/mexc.ico"
+        }
+      ]
+    },
+    "DEXs": {
+      "icon": "icons/dex.png",
+      "items": [
+        {
+          "name": "Dusa.io",
+          "url": "https://app.dusa.io/",
+          "description": "Access Dusa.io to trade, bridge, and interact with Massa through decentralized applications.",
+          "icon": "https://app.dusa.io/favicon.ico"
+        }
+      ]
+    },
+
+    "Bridges": {
+      "icon": "icons/Bridge.png",
+      "items": [
+        {
+          "name": "Dusa Bridge",
+          "url": "https://bridge.massa.net/index",
+          "description": "Access Dusa.io to trade, bridge, and interact with Massa through decentralized applications.",
+          "icon": "https://app.dusa.io/favicon.ico"
+        },
+        {
+          "name": "CEDE.store CEX On-Ramp",
+          "url": "https://app.dusa.io/cexOnRamp",
+          "description": "Transfer your CEX assets to your blockchain address from any dApp.",
+          "icon": "icons/cede.png"
+        }
+      ]
+    },
+    "Markets": {
+      "icon": "https://www.coingecko.com/favicon.ico",
+      "items": [
+        {
+          "name": "Massa on CoinGecko",
+          "url": "https://www.coingecko.com/en/coins/massa",
+          "description": "Track the live price, market cap, and performance of the Massa token on CoinGecko.",
+          "icon": "https://www.coingecko.com/favicon.ico"
+        },
+        {
+          "name": "Massa on CoinMarketCap",
+          "url": "https://coinmarketcap.com/currencies/massa/",
+          "description": "Track Massa's price, market cap, and other metrics on CoinMarketCap.",
+          "icon": "https://coinmarketcap.com/favicon.ico"
+        }
+      ]
+    },
+
+    "Partners": {
+      "icon": "https://hyperlane.xyz/favicon.ico",
+      "items": [
+        {
+          "name": "Hyperlane",
+          "url": "https://hyperlane.xyz/",
+          "description": "Hyperlane offers interoperability solutions for decentralized applications, connecting blockchains for seamless data transfer.",
+          "icon": "icons/Hyperlane.jpg"
+        },
+        {
+          "name": "Umbrella Network"  ,
+          "url": "https://umb.network/",
+          "description": "Umbrella Network provides decentralized, scalable, and secure oracle services for blockchain ecosystems.",
+          "icon": "icons/umbrella.png"
+        },
+        {
+          "name": "KYVE Network",
+          "url": "https://www.kyve.network/",
+          "description": "KYVE is a decentralized data lake for archiving and validating blockchain data, ensuring data availability across ecosystems.",
+          "icon": "icons/kyve.jpg"
+        }
+      ]
+    },
+    "NFTs": {
+      "icon": "icons/nft.png",
+      "items": [
+        {
+          "name": "Charlie",
+          "url": "https://www.purrfectuniverse.com/mint/charlie",
+          "description": "Charlie is the cuttest cat on the Massa universe.",
+          "icon": "icons/NFTcharlie.jpg"
+        },
+        {
+          "name": "Awesome LAMAssa",
+          "url": "https://www.purrfectuniverse.com/mint/lamassa",
+          "description": "Awesome LAMAssa is an adorable NFT collection featuring quirky llamas, each with its own charming personality.",
+          "icon": "icons/NFTlamassa.png"
+        },
+        {
+          "name": "Massamon",
+          "url": "https://massamon.com/",
+          "description": "Evolving NFT!!!: MassaMon grows with you, capturing every milestone in a unique digital journey.",
+          "icon": "icons/NFT_Massamon.ico"
+        },
+        {
+          "name": "Cameleonz",
+          "url": "https://www.cameleon.art/",
+          "description": "Discover Cameleonz EVOLVING NFT!!!!: the world's first evolving NFT that adapts to your creativity, transforming with each new idea.",
+          "icon": "icons/cam.png"
+        },
+        {
+          "name": "Fisherman John's postcard",
+          "url": "https://www.purrfectuniverse.com/mint/fisherman-john's-postcard",
+          "description": "Fisherman John's Postcard is a cute NFT collection capturing charming seaside adventures with delightful, hand-drawn details.",
+          "icon": "icons/NFTjohn.png"
+        }
+      ]
+    },
+
+    
+    "Games": {
+      "icon": "https://forum.massa.community/uploads/default/original/1X/_129430568242d1b7f853bb13ebea28b3f6af4e7.png",
+      "items": [
+
+        {
+          "name": "MW0rld Bot",
+          "url": "https://t.me/MW0rld_bot",
+          "description": "MW0rld is a Telegram bot that facilitates interactions within the Massa blockchain ecosystem.",
+          "icon": "icons/GAME_MW0rld.jpg"
+        },
+        {
+          "name": "Counterfeit Reality",
+          "url": "https://cr.massa.net/#/",
+          "description": "MW0rld is a Telegram bot that facilitates interactions within the Massa blockchain ecosystem.",
+          "icon": "icons/game_CR.png"
+        }
+      ]
+    } 
+  }
+}
