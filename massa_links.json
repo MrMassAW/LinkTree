@@ -118,10 +118,16 @@
       "icon": "icons/wallet.png",
       "items": [
         {
-          "name": "MassaWallet",
+          "name": "Massa Wallet",
           "url": "https://station.massa/plugin/massa-labs/massa-wallet/web-app/account-select",
           "description": "Access and manage your Massa wallet, track balances, and send tokens.",
           "icon": "icons/MassaStation.svg"
+        },
+       {
+          "name": "MassaHub Wallet",
+          "url": "https://t.me/massa_wallet_bot",
+          "description": "A wallet accessible vai Telegram for the Massa blockchain, providing users with a secure and easy way to interact with their tokens and more!",
+          "icon": "icons/massahubwallet.jpg"
         },
         {
           "name": "Bearby",
