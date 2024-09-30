@@ -105,7 +105,7 @@
         milkyWayLinksArray = [];
     
         // Adjust the number of stars based on canvas size
-        const density = 0.0003; // You can adjust this value to change the density
+        const density = 0.0001; // You can adjust this value to change the density
         const numMilkyWayStars = Math.floor(canvas.width * canvas.height * density);
     
         // Create stars
