@@ -62,18 +62,31 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }
 
-    // Function to update robot position
-    function randomTargetPosition() {
+    function runTaskAtRandomIntervals() {
+        // Generate a random interval between 1000 ms (1 second) and 5000 ms (5 seconds)
+        let randomInterval = Math.random() * 8000 + 500;
+    
+        // Perform the desired task
+        console.log("Task running at interval:", randomInterval);
         if (!mouseMoving){
             // Set new target position while ensuring it's within window bounds
-            targetPosition.x = (window.innerWidth / 2) + (Math.random()  * window.innerWidth/2);
-            targetPosition.y = (window.innerHeight / 2) + (Math.random() * window.innerHeight/2);
+            targetPosition.x = (Math.random() * window.innerWidth)
+            targetPosition.y = (Math.random() * window.innerHeight);
             console.log(targetPosition.x);
             console.log(targetPosition.y);
         }
+
+        // Set a new timeout to call the function again after the random interval
+        setTimeout(runTaskAtRandomIntervals, randomInterval);
     }
+    
+    // Start the task for the first time
+    runTaskAtRandomIntervals();
 
     // Call updateRobotPosition every 20ms for smooth animation
     setInterval(updateRobotPosition, 20);
-    setInterval(randomTargetPosition, 5000);
+
+
+
+
 });
