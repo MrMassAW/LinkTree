@@ -10,6 +10,12 @@
           "icon": "icons/Massa.svg"
         },
         {
+          "name": "CertiK Score 🔥94.04% (AAA) Ranked #1🔥",
+          "url": "https://skynet.certik.com/leaderboards/non-token",
+          "description": "Massa is ranked #1 on the Non-Token leaderboard and #19 against ALL crypto!!! Obtained 94.04 and a triple AAA!",
+          "icon": "icons/certik.webp"
+        },
+        {
           "name": "Massa Ecosystem",
           "url": "https://massa.foundation/ecosystem",
           "description": "Explore the diverse projects and apply for grants to build on the Massa blockchain.",
@@ -74,12 +80,23 @@
           "description": "Detailed information on the Massa blockchain, including real-time stats and analytics.",
           "icon": "https://massa-bc-info.vercel.app/favicon.ico"
         },
-
         {
-          "name": "MassaExplor.io",
+          "name": "MassExplo.io",
           "url": "https://www.massexplo.io/",
           "description": "A blockchain explorer for Massa, offering detailed insights into blocks, transactions, smart contracts, and addresses.",
           "icon": "https://www.massexplo.io/favicon.ico"
+        },
+        {
+          "name": "Massa.ga",
+          "url": "https://massa.ga/",
+          "description": "The swissknife of Massa tools combining a token explorer, a contract scanner, a portfolio explorer and many more!",
+          "icon": "icons/massaga.ico"
+        },
+        {
+          "name": "MASSA Acheta",
+          "url": "https://t.me/massa_acheta_bot",
+          "description": "MASSA Acheta is a service that will notify you about events occurring with your MASSA Wallet.",
+          "icon": "icons/acheta.jpg"
         },
         {
           "name": "🚀 Pump DUSA 🚀",
@@ -248,10 +265,27 @@
         }
       ]
     },
-
     "Partners": {
       "icon": "icons/Massa.svg",
       "items": [
+        {
+          "name": "Starknet"  ,
+          "url": "https://www.starknet.io/",
+          "description": "Starknet is the secure scaling technology bringing Ethereum's benefits to the world.",
+          "icon": "icons/starknet.png"
+        },
+        {
+          "name": "Kima"  ,
+          "url": "https://kima.finance/",
+          "description": "Kima is a decentralized, blockchain-based money transfer protocol. It settles interchain transactions, enabling apps to build on what they're comfortable with, and leave financial friction in the past.",
+          "icon": "icons/kima.png"
+        },
+        {
+          "name": "Plena Finance",
+          "url": "https://www.plena.finance/",
+          "description": "UMeet Plena Crypto SuperApp. Trade in 100,000+ Cryptocurrencies in a Single Tap With Plena, The First Crypto SuperApp powered by Account Abstraction.",
+          "icon": "icons/plena.webp"
+        },
         {
           "name": "Hyperlane",
           "url": "https://hyperlane.xyz/",
