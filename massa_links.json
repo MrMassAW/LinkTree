@@ -136,7 +136,7 @@
       "items": [
         {
           "name": "Massa Wallet",
-          "url": "https://station.massa/plugin/massa-labs/massa-wallet/web-app/account-select",
+          "url": "https://station.massa.net",
           "description": "Access and manage your Massa wallet, track balances, and send tokens.",
           "icon": "icons/MassaStation.svg"
         },
