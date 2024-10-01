@@ -4,27 +4,24 @@
     <meta charset="UTF-8">
     <title>Massa Blockchain Network Visualization</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* CSS to position the image with link at the top-right */
-        .top-right-link {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            z-index: 1000; /* Make sure it's on top of other elements */
-        }
-    </style>
 </head>
 <body>
 
     <header class="header">
-        <h1>Massa Ecosytem</h1>
-        <input type="text" id="search-bar" placeholder="🔍 Search categories or items...">
+        <div class="header-section left">
+            <!-- Left section (optional content) -->
+        </div>
+        <div class="header-section center">
+            <h1>Massa Ecosystem</h1>
+            <input type="text" id="search-bar" placeholder="🔍 Search categories or items...">
+        </div>
+        <div class="header-section right">
+            <a href="https://your-link-here.com" class="top-right-link">
+                <img src="buydomain.png" alt="Buy yourdomin.massa now!" height="100">
+            </a>
+        </div>
     </header>
-
-    <a href="https://mns.massa.net/" class="top-right-link">
-        <img src="buydomain.png" alt="Buy yourdomain.massa now!" width="50" height="50">
-    </a>
-
+    
     <canvas id="canvas"></canvas>
     <div id="categories-container" class="categories-container">
         <!-- Categories will be dynamically loaded here -->

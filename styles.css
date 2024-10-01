@@ -19,12 +19,33 @@ body {
 
 /* Header Section */
 .header {
-    text-align: center;
-    margin-bottom: 10px; /* Reduced margin for compactness */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: rgb(0, 0, 0); /* Transparent background */
     z-index: 4; /* Ensure header is above the canvas */
     position: relative;
-    background: rgba(0, 0, 0, 0);
-    padding: 5px; /* Reduced padding */
+}
+
+.header-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-section.center {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.header-section.left {
+    justify-content: flex-start;
+}
+
+.header-section.right {
+    justify-content: flex-end;
 }
 
 .header h1 {
@@ -32,14 +53,8 @@ body {
     color: #fff; /* White for contrast with the black background */
 }
 
-.header p {
-    font-size: 1em; /* Reduced font size */
-    color: #fff; /* Set to white for better visibility */
-}
-
 #search-bar {
     padding: 5px; /* Reduced padding */
-    margin-top: 5px; /* Reduced margin */
     width: 70%; /* Reduced width for more space efficiency */
     max-width: 300px; /* Reduced max-width */
     border-radius: 15px; /* Reduced border radius */
