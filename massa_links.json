@@ -105,6 +105,12 @@
           "icon": "icons/vite.svg"
         },
         {
+          "name": "Syntra",
+          "url": "https://syntra-dapp.massahub.network/",
+          "description": "World first 100% on-chain automatic payment via Massa Autonomous Smart Contract.",
+          "icon": "icons/syntra.svg"
+        },
+        {
           "name": "Massa Storage Calculator",
           "url": "https://mrmassaw.github.io/massa-storage-calculator/",
           "description": "Calculate storage costs on the Massa network for your decentralized applications.",
