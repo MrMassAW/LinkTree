@@ -109,6 +109,12 @@
           "url": "https://massa-tools.vercel.app/",
           "description": "Create your own token contract with Massa-Tools!",
           "icon": "icons/massatools.ico"
+        },  
+        {
+          "name": "Syntra",
+          "url": "https://syntra-dapp.massahub.network/",
+          "description": "World first 100% on-chain automatic payment via Massa Autonomous Smart Contract.",
+          "icon": "icons/syntra.svg"
         },
         {
           "name": "Massa Storage Calculator",
