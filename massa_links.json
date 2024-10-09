@@ -105,6 +105,12 @@
           "icon": "icons/vite.svg"
         },
         {
+          "name": "Massa-Tools",
+          "url": "https://massa-tools.vercel.app/",
+          "description": "Create your own token contract with Massa-Tools!",
+          "icon": "icons/massatools.ico"
+        },
+        {
           "name": "Massa Storage Calculator",
           "url": "https://mrmassaw.github.io/massa-storage-calculator/",
           "description": "Calculate storage costs on the Massa network for your decentralized applications.",
